@@ -1,9 +1,6 @@
 package main
 
-import sesion3.Login
-import sesion3.Market
-import sesion3.User
-import sesion3.Buyer
+import sesion3.*
 
 fun main(){
     var userCntr = 0
@@ -12,6 +9,9 @@ fun main(){
     userCntr++
     val seller1 = Buyer(userCntr,"Seller1", "seller1@gmail.com","sel123")
     userCntr++
+    val amazoon = Amazoon()
+    amazoon.registerBuyer(buyer1)
+
 
     /*val log = Login(user = String(),  pass = String(), us = String(), pas = String())
     val market = Market(nameproduct = String(),typeproduct = String(),brand = String(),color = String(),
