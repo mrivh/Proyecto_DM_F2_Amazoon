@@ -2,10 +2,18 @@ package main
 
 import sesion3.Login
 import sesion3.Market
-
+import sesion3.User
+import sesion3.Buyer
 
 fun main(){
-    val log = Login(user = String(),  pass = String(), us = String(), pas = String())
+    var userCntr = 0
+    var productCntr = 0
+    val buyer1 = Buyer(userCntr,"Alfredo", "alfredo@gmail.com","alf123")
+    userCntr++
+    val seller1 = Buyer(userCntr,"Seller1", "seller1@gmail.com","sel123")
+    userCntr++
+
+    /*val log = Login(user = String(),  pass = String(), us = String(), pas = String())
     val market = Market(nameproduct = String(),typeproduct = String(),brand = String(),color = String(),
         manyproducts = String(),description = String())
 
@@ -56,5 +64,5 @@ fun main(){
     }else{
 
         println("Acceso a tu cuenta denegado!!")
-    }
+    }*/
 }
