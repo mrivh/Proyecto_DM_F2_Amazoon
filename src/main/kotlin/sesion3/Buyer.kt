@@ -16,12 +16,12 @@ class Buyer(id: Int, username: String, email: String, password: String) : User(i
         orders.add(order)
     }
 
-    fun addCart(product: Product){
+    fun addToCart(product: Product){
         println("Product ${product.name} was added to you cart")
         cart.add(product)
     }
 
-    fun addWhishlist(product: Product){
+    fun addToWhishlist(product: Product){
         println("Product ${product.name} was added to you wishlist")
         wishlist.add(product)
     }

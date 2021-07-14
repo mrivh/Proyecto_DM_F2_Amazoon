@@ -6,7 +6,4 @@ abstract class User(
     val email: String,
     val password:String
 ) {
-    /*abstract fun getId(): Int
-    abstract fun getUsername(): String
-    abstract fun getEmail(): String*/
 }

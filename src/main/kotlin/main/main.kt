@@ -3,17 +3,16 @@ package main
 import sesion3.*
 
 fun main(){
-    var userCntr = 0
+    /*var userCntr = 0
     var productCntr = 0
     val buyer1 = Buyer(userCntr,"Alfredo", "alfredo@gmail.com","alf123")
     userCntr++
     val seller1 = Buyer(userCntr,"Seller1", "seller1@gmail.com","sel123")
     userCntr++
     val amazoon = Amazoon()
-    amazoon.registerBuyer(buyer1)
+    amazoon.registerBuyer(buyer1)*/
 
-
-    /*val log = Login(user = String(),  pass = String(), us = String(), pas = String())
+    val log = Login(user = String(),  pass = String(), us = String(), pas = String())
     val market = Market(nameproduct = String(),typeproduct = String(),brand = String(),color = String(),
         manyproducts = String(),description = String())
 
@@ -64,5 +63,5 @@ fun main(){
     }else{
 
         println("Acceso a tu cuenta denegado!!")
-    }*/
+    }
 }
